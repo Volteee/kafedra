@@ -201,12 +201,14 @@ ul {
   display: flex;
   height: 100%;
   align-items: center;
+  gap: 1vw;
 }
 
 .header-menu-item {
   height: 60%;
   display: flex;
   align-items: center;
+  border-radius: 10px;
 }
 
 .header-menu-link {
@@ -246,7 +248,6 @@ ul {
 
 .header-menu-item:hover {
   background-color: var(--color-for-border);
-  border-radius: 10px;
   transition: background-color 0.1s ease-in-out;
 }
   
