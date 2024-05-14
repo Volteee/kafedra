@@ -17,6 +17,11 @@ router.get('/disciplines',function(req,res){
   res.sendFile(path.join(__dirname+'/disciplines/index.html'));
   //__dirname : It will resolve to your project folder.
 });
+
+router.get('/teachers',function(req,res){
+  res.sendFile(path.join(__dirname+'/teachers/index.html'));
+  //__dirname : It will resolve to your project folder.
+});
  
 //add the router
 app.use('/', router);
