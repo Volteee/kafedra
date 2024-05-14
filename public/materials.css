@@ -48,6 +48,7 @@ ul {
     display: flex;
     align-items: center;
     border-radius: 10px;
+    transition: background-color 0.1s ease-in-out;
 }
 
 .header-menu-link {
@@ -87,8 +88,7 @@ ul {
 }
 
 .header-menu-item:hover {
-    background-color: var(--color-for-border);
-    transition: background-color 0.1s ease-in-out;
+    background-color: #d8dce2;
 }
 
 .main_content {
@@ -124,4 +124,13 @@ ul {
 
 .element img {
     width: 100%;
+}
+
+.title-partner {
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 48px;
+    padding-left: 12.8vw;
+    padding-right: 12.8vw;
 }
