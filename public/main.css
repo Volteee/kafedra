@@ -267,6 +267,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: 3vw;
  }
 
  .video_button a {
