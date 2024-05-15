@@ -26,6 +26,7 @@ router.get('/teachers',function(req,res){
 //add the router
 app.use('/', router);
 app.use(express.static(__dirname + '/public'));
+app.use('/node_modules/@dotlottie', express.static(__dirname + '/node_modules/@dotlottie'));
 app.listen(process.env.port || 8082);
  
 console.log('Running at Port 8082');
