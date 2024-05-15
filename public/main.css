@@ -727,7 +727,7 @@
  }
  
  
- /* @media screen and (max-width: 900px) {
+ @media screen and (max-width: 400px) {
    .course_block {
      display: block;
      padding: 3vh
@@ -739,4 +739,13 @@
      width: 100%;
      margin-top: 4vh;
    }
- } */
+ }
+
+ @media screen and (max-width: 550px){
+  .flex-element {
+    background-color: var(--color-light);
+    flex: 1;
+    min-width: 35vw;
+    min-height: 27vh;
+  }
+}
