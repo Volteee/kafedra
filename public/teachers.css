@@ -2,6 +2,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
+.header {
+    width: 100vw;
+    height: 9vh;
+    position: fixed;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-inline: 12.8vw;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    column-gap: 15vw;
+    justify-content: center;
+  }
+    
+  .header-menu {
+    display: flex;
+    column-gap: .43vw;
+    justify-content: center;
+  }
+    
+  .header-menu-link {
+    display: flex;
+    position: relative;
+    font-weight: 700;
+    height: 6vh;
+    align-items: center;
+    padding-inline: .3vw;
+    text-decoration: none;
+    font-size: 1.25vw;
+    z-index: 10;
+    color: var(--color-dark-black);
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in-out;
+  }
+  
+  
+    
+    
+  .header-logo {
+    flex-shrink: 0;
+    opacity: .75;
+  }
+    
+  .lang-contant {
+    display: flex;
+    column-gap: .3vw;
+  }
+    
+  .lang-title {
+    font-weight: 600;
+    font-size: 1.1vw;
+    color: black;
+  }
+  
+  .header-menu-link:hover {
+    background-color: var(--color-for-border);
+  }
+  
 
 .main_container {
     display: flex;
