@@ -162,8 +162,8 @@
  .header {
    width: 100vw;
    position: fixed;
-   padding-top: 1vh;
-  padding-bottom: 1vh;
+   padding-top: .5vw;
+  padding-bottom: .5vw;
    padding-inline: 12.8vw;
    top: 0;
    left: 0;
@@ -213,6 +213,7 @@
  .lang-contant {
    display: flex;
    column-gap: .3vw;
+   width: 3vw;
  }
    
  .lang-title {
