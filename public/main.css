@@ -262,6 +262,14 @@
    text-align: center;
    color: var(--color-dark-gray);
  }
+
+ .video_button {
+  font-size: 1.8vw;
+  padding: 1vw;
+  background-color: var(--color-for-border);
+  border-radius: .3vw;
+  transition: background-color 1s ease-in-out;
+ }
  
  .page-second {
    width: 100%;
