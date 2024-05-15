@@ -80,7 +80,7 @@ ul {
   }
   
   .header-menu-link:hover {
-    background-color: var(--color-for-border);
+    background-color: #d8dce2;
   }
 
 .main_content {
