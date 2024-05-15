@@ -627,11 +627,16 @@
    padding-right: 12.8vw;
  }
  .partner-container img {
-   max-width: 20%; /* Задайте максимальную ширину изображений внутри контейнера */
    height: auto; /* Для сохранения пропорций изображений */
+ }
+ .partner_button {
+  width: 15vw;
+  height: 15vw;
  }
  .partner_button img{
   transition: transform 0.3s;
+  height: 100%;
+  width: 100%;
  }
  .partner_button:hover img {
     transform: scale(1.1);
