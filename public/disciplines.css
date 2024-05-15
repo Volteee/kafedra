@@ -109,7 +109,7 @@ opacity: 1;
     font-size: 3vw;
     margin-bottom: 7vh;
     color: var(--color-light);
-    font-weight: 600;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -166,4 +166,52 @@ opacity: 1;
 
 .grad3 {
     background: linear-gradient(to top, #31286d, #224e63)
+}
+
+@media (max-width: 920px) {
+    .header-menu {
+        column-gap: 1.2vw;
+    }
+    .header-menu-link{
+        font-size: 1.95vw;
+    }
+    .lang-title {
+        font-size: 1.5vw;
+    }
+    .title{
+        font-size: 6vw;
+    }
+    .content {
+        grid-template-columns: minmax(200px, 1fr);
+        
+        gap: 2.5vw;
+    }
+
+    .type-discipline{
+        font-size: 3.3vw;
+    }
+
+    .element-discipline{
+        font-size: 2.2vw; 
+    }
+}
+
+@media (max-width: 500px) {
+    .header-menu {
+        column-gap: 1.5vw;
+    }
+    .header-menu-link{
+        font-size: 2.65vw;
+    }
+    .lang-title {
+        font-size: 2.5vw;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .elements_discipline {
+        grid-template-columns: minmax(200px, 1fr);
+    }
+    
 }
