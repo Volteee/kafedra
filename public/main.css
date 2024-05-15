@@ -652,7 +652,12 @@
    max-width: 20%; /* Задайте максимальную ширину изображений внутри контейнера */
    height: auto; /* Для сохранения пропорций изображений */
  }
- 
+ .partner_button img{
+  transition: transform 0.3s;
+ }
+ .partner_button:hover img {
+    transform: scale(1.1);
+ }
  
  .create-line {
    width: 75%;
