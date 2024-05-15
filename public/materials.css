@@ -90,7 +90,7 @@ ul {
 
 .element {
     border-radius: 10%;
-    border: solid #8088dc 10px;
+    border: solid #8088dc 1vw;
     padding: 3vw;
     width: fit-content;
     transition: background-color 0.15s;
@@ -118,9 +118,9 @@ ul {
 
 .title-partner {
     font-weight: 500;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    font-size: 48px;
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+    font-size: 3.5vw;
     padding-left: 12.8vw;
     padding-right: 12.8vw;
 }
