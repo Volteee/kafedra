@@ -161,10 +161,9 @@
    
  .header {
    width: 100vw;
-   height: 9vh;
    position: fixed;
-   padding-top: 5vh;
-   padding-bottom: 5vh;
+   padding-top: 1vh;
+  padding-bottom: 1vh;
    padding-inline: 12.8vw;
    top: 0;
    left: 0;
@@ -205,6 +204,10 @@
  .header-logo {
    flex-shrink: 0;
    opacity: .75;
+ }
+ .header-logo img {
+  width: 3vw;
+  height: 3vw;
  }
    
  .lang-contant {
