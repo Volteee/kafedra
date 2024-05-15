@@ -264,6 +264,12 @@
  }
 
  .video_button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+
+ .video_button a {
   font-size: 1.8vw;
   padding: 1vw;
   background-color: var(--color-for-border);
