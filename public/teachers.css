@@ -20,10 +20,9 @@ body {
 
 .header {
     width: 100vw;
-    height: 9vh;
     position: fixed;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: .5vw;
+   padding-bottom: .5vw;
     padding-inline: 12.8vw;
     top: 0;
     left: 0;
@@ -47,14 +46,13 @@ body {
     display: flex;
     position: relative;
     font-weight: 700;
-    height: 6vh;
     align-items: center;
-    padding-inline: .3vw;
+    padding-inline: .5vw;
     text-decoration: none;
     font-size: 1.25vw;
     z-index: 10;
     color: var(--color-dark-black);
-    border-radius: 10px;
+    border-radius: .6vw;
     transition: background-color 0.1s ease-in-out;
   }
   
@@ -65,10 +63,15 @@ body {
     flex-shrink: 0;
     opacity: .75;
   }
+  .header-logo img {
+   width: 3vw;
+   height: 3vw;
+  }
     
   .lang-contant {
     display: flex;
     column-gap: .3vw;
+    width: 3vw;
   }
     
   .lang-title {
