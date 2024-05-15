@@ -277,6 +277,8 @@
   border-radius: 3vw;
   transition: background-color 1s ease-in-out;
   font-weight: 600;
+  border: solid var(--color-for-border) .2vw;
+  color: var(--color-for-border)
  }
  
  .page-second {
