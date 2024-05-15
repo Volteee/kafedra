@@ -271,11 +271,12 @@
  }
 
  .video_button a {
-  font-size: 1.8vw;
+  font-size: 1vw;
   padding: 1vw;
   background-color: var(--color-for-border);
-  border-radius: .3vw;
+  border-radius: 3vw;
   transition: background-color 1s ease-in-out;
+  font-weight: 600;
  }
  
  .page-second {
