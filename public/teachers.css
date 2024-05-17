@@ -180,6 +180,9 @@ body {
 @media screen and (max-width: 500px) {
   .container_teacher {
     display: block;
+    border-radius: 5vw;
+  -moz-border-radius: 5vw;
+  -webkit-border-radius: 5vw;
   }
   .photos_teachers img{
     width: 100%;
