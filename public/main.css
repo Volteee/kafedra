@@ -254,7 +254,7 @@
  .content-first {
    height: 100vh;
    padding-top: 30vh;
-   min-height: calc(30vh + 50vw);
+   min-height: calc(30vh + 30.2vw);
  }
  
  .dop-info {
@@ -761,6 +761,9 @@
  @media screen and (max-width: 500px){
   body {
     line-height: 2;
+  }
+  .content-first {
+    min-height: calc(30vh + 44vw);
   }
   .flex-element {
     background-color: var(--color-light);
