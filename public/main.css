@@ -883,6 +883,7 @@
   }
   .title-partner {
     margin-top: 5vw;
+    font-size: 5.56vw
   }
   .contact-container_big{
     padding-bottom: 4vw;
@@ -900,5 +901,15 @@
   }
   .create-line {
     width: 90%;
+  }
+  .partner-container{
+    padding: 10vw;
+  }
+  .partner-container img{
+    width: 19.5vw;
+    height: auto;
+  }
+  .partner-container a{
+    margin: 20;
   }
 }
