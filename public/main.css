@@ -322,6 +322,22 @@
    transition: 0.4s;
    border-radius: 1.5vw;
  }
+
+ flex-element0 {
+  width: 3.5vw; height: 4.85vw
+ }
+ flex-element1 {
+  width: 4.85vw; height: 4.8vw
+ }
+ flex-element2 {
+  width: 5.55vw; height: 4.65vw
+ }
+ flex-element3 {
+  width: 3.5vw; height: 3.3vw
+ }
+ flex-element4 {
+  width: 3.8vw; height: 3.05vw
+ }
  
  .flex-element:hover {
    background-color: rgba(255, 255, 255, 0.88);
