@@ -903,12 +903,15 @@
     font-size: 2.5vw;
   }
   .title-partner {
-    margin-top: 5vw;
     font-size: 5.56vw
   }
-  .contact-container_big{
-    padding-bottom: 4vw;
-    padding-top: 2vw;
+
+  .partner-container{
+    padding-bottom: 10vw;
+  }
+  .partner-container img{
+    width: 17vw;
+    height: auto;
   }
   .contact-container_smal img{
     width: 3vw;
