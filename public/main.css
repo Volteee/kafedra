@@ -589,6 +589,11 @@
    font-size: 2vw;
    font-weight: 600;
    color: var(--color-light);
+   -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
  }
  
  .prof-info {
@@ -597,6 +602,11 @@
    font-weight: 500;
    color: var(--color-light);
    margin-bottom: 2.9vh;
+   -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
  }
  
  .prof0 {
@@ -665,7 +675,7 @@
    justify-content: space-between; /* Выравнивает изображения по центру контейнера по горизонтали */
    align-items: center; /* Выравнивает изображения по центру контейнера по вертикали */
    max-width: 100%; /* Максимальная ширина контейнера */
-   padding: 20px;
+   padding: 2vw;
    padding-left: 12.8vw;
    padding-right: 12.8vw;
  }
@@ -688,6 +698,7 @@
  .create-line {
    width: 75%;
    border-top: 3px solid #D9D9D9;
+   margin-top: 1vw;
  }
  
  
@@ -725,7 +736,7 @@
  
  .title-partner {
   font-weight: 500; 
-  margin-top: 10vw; /* Отступ сверху */
+  margin-top: 5vw;
   margin-bottom: 1vw; /* Отступ снизу */
   font-size: 3.4vw; /* Размер текста */
   padding-left: 12.8vw;
