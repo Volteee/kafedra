@@ -763,9 +763,16 @@
     min-height: calc(30vh + 44vw);
     line-height: 2;
   }
+  .headline {
+    font-size: 5.2vw;
+  }
+  .flex-container {
+    gap: 2.4vw;
+  }
   .flex-element {
     background-color: var(--color-light);
     flex: 1;
+    padding: 3.8vw;
     min-width: 40vw;
     min-height: 27vh;
   }
@@ -786,5 +793,10 @@
   }
   .page-second p{
     font-size: 4vw;
- }
+  }
+
+  .page-second src{
+    width: 6vw;
+    height: auto;
+  }
 }
