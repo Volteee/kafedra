@@ -724,13 +724,13 @@
  
  
  .title-partner {
-   font-weight: 500; 
-   margin-top: 100px; /* Отступ сверху */
-   margin-bottom: 10px; /* Отступ снизу */
-   font-size: 3.4vw; /* Размер текста */
-   padding-left: 12.8vw;
-   padding-right: 12.8vw;
- }
+  font-weight: 500; 
+  margin-top: 10vw; /* Отступ сверху */
+  margin-bottom: 1vw; /* Отступ снизу */
+  font-size: 3.4vw; /* Размер текста */
+  padding-left: 12.8vw;
+  padding-right: 12.8vw;
+}
  .text-contact{
   font-weight: 500; 
   font-size: 1.5vw; /* Размер текста */
@@ -955,6 +955,7 @@
   }
   .create-line {
     width: 90%;
+    border-top: 2px solid #D9D9D9;
   }
   .header-menu-link:hover {
     background-color: white;
