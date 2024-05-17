@@ -763,6 +763,7 @@
  @media screen and (max-width: 500px){
   .header {
     padding-top: 5.5vw;
+    position: static;
   }
   .header-menu {
     column-gap: 3.43vw;
@@ -783,11 +784,12 @@
     color: var(--color-dark-gray);
   }
   .content-first {
+    height: 90.75vh;
     min-height: calc(30vh + 44vw);
     line-height: 2;
   }
   .headline {
-    font-size: 5.2vw;
+    font-size: 5.56vw;
   }
   .flex-container {
     gap: 2.4vw;
@@ -852,7 +854,7 @@
     width: 90vw;
   }
   .content_section__course h1 {
-    font-size: 4vw;
+    font-size: 5.56vw;
   }
   .course_block__course_number {
     margin-bottom: 0;
@@ -892,7 +894,7 @@
     height: 22vw;
   }
   .prof-container {
-    min-width: 74vw;
+    min-width: 90vw;
     padding: 4vw;
     margin-bottom: 10vw;
   }
