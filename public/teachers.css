@@ -176,3 +176,29 @@ body {
     font-size: 1vw;
     font-weight: 700;
 }
+
+@media screen and (max-width: 500px) {
+  .container_teacher {
+    display: block;
+  }
+  .photos_teachers {
+    width: 100%;
+    height: auto;
+  }
+  .info_block {
+    margin-top: 2vw;
+    margin-left: 0;
+  }
+  .main_info h1 {
+    font-size: 3.6vw;
+  }
+  .main_info p {
+    font-size: 2.2vw;
+  }
+  .sub_info h1 {
+    font-size: 3vw;
+  }
+  .grid_element p {
+    font-size: 2vw;
+  }
+}
