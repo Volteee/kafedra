@@ -221,7 +221,7 @@
    color: black;
  }
  
- .header-menu-link:hover {
+ .header-menu-link:hover, .header-menu-link:active {
    background-color: var(--color-for-border);
  }
  
