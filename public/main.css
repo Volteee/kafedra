@@ -339,7 +339,7 @@
   width: 3.8vw; height: 3.05vw
  }
  
- .flex-element:hover {
+ .flex-element:hover, .flex-element:active {
    background-color: rgba(255, 255, 255, 0.88);
  }
  
