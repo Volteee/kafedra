@@ -784,5 +784,7 @@
     padding-inline: 2vw;
     border-radius: 4vw;
   }
-
+  .page-second p{
+    font-size: 4vw;
+ }
 }
