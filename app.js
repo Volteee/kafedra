@@ -22,6 +22,11 @@ router.get('/teachers',function(req,res){
   res.sendFile(path.join(__dirname+'/teachers/index.html'));
   //__dirname : It will resolve to your project folder.
 });
+
+router.get('/video',function(req,res){
+  res.sendFile(path.join(__dirname+'/video/index.html'));
+  //__dirname : It will resolve to your project folder.
+});
  
 //add the router
 app.use('/', router);
