@@ -16,13 +16,14 @@ body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    margin: 0;
 }
 
 .header {
     width: 100vw;
     position: fixed;
     padding-top: .5vw;
-   padding-bottom: .5vw;
+    padding-bottom: .5vw;
     padding-inline: 12.8vw;
     top: 0;
     left: 0;
