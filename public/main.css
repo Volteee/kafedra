@@ -676,27 +676,31 @@
  
  
  
- .contact-container_big {
-   align-items: center; /* выравниваем элементы по вертикали */
-   justify-content: center; /* выравниваем элементы по горизонтали */
-   margin-bottom: 20px; /* Отступ снизу */
-   display: grid;
-   grid-template-columns: 1fr 2fr; /* Определение ширины столбцов */
-   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Автоматическое изменение количества колонок */
-   padding-left: 12.8vw;
-   padding-right: 12.8vw;
- }
- 
- 
- .contact-container_smal{
-   display: flex; /* используем flexbox */
-   align-items: center; /* выравниваем элементы по вертикали */
-   justify-content: center; /* выравниваем элементы по горизонтали */
-   padding:0 100px;
-   flex-basis: 30%; /* Устанавливаем начальную ширину для каждого элемента */
-   text-align: center;
-   margin: 10px;
- }
+ .contact-container_big{
+  display: flex; /* используем flexbox */
+  margin-inline: auto;
+  margin-bottom: 1vw;
+  white-space: nowrap;
+  width: auto;
+  justify-content: center; /* выравниваем элементы по горизонтали */
+  overflow: hidden; /* запрещаем перенос элементов на новую строку */
+  transform: scale(calc(var(--device-width) / 1920));
+}
+
+.contact-container_smal{
+  display: flex; /* используем flexbox */
+  align-items: center; /* выравниваем элементы по вертикали */
+  justify-content: center; /* выравниваем элементы по горизонтали */
+  padding:0 5vw;
+  margin: 1vw;
+  transform: scale(calc(var(--device-width) / 1920));
+}
+
+.contact-container_smal img{
+  width: 2vw; /* установить ширину в 50% ширины экрана */
+  height: auto; /* автоматически подстроить высоту для сохранения пропорций */
+}
+
  .partner-container::-webkit-scrollbar {
    display: none; /* Убирает стандартные полосы прокрутки в Chrome и Safari */
  }
@@ -712,11 +716,11 @@
    padding-right: 12.8vw;
  }
  .text-contact{
-   font-weight: 500; 
-   font-size: 20px; /* Размер текста */
-   padding: 15px;
-   white-space: nowrap; /* Предотвращает перенос текста на новую строку */
- }
+  font-weight: 500; 
+  font-size: 1.5vw; /* Размер текста */
+  padding: 1vw;
+  white-space: nowrap; /* Предотвращает перенос текста на новую строку */
+}
  
  .grad0 {
    background-image: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(145,145,233,1) 100%);
