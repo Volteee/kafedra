@@ -764,9 +764,13 @@
   .header {
     padding-top: 5.5vw;
     position: static;
+    gap: 0;
   }
   .header-menu {
     column-gap: 3.43vw;
+  }
+  header-logo-image {
+    width: 0;
   }
   .header-menu-link {
     display: flex;
