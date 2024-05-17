@@ -866,4 +866,17 @@
   .graph__column___animation251 {
     height: 22vw;
   }
+  .prof-container {
+    min-width: 60vw;
+    padding: 4vw;
+  }
+  .prof-header {
+    font-size: 5.56vw;
+  }
+  .prof-title {
+    font-size: 4vw;
+  }
+  .prof-info {
+    font-size: 2.5vw;
+  }
 }
