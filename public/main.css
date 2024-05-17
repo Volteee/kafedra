@@ -808,21 +808,25 @@
   }
   .flex-title {
     margin-top: 1vw;
+    font-size: 5vw;
+  }
+  .flex-info {
+    font-size: 4vw;
   }
   .flex-element0 {
-    width: 10.5vw; height: 14.55vw
+    width: 12.77vw; height: 17.69vw
    }
    .flex-element1 {
-    width: 12.55vw; height: 14.4vw
+    width: 15.26vw; height: 17.51vw
    }
    .flex-element2 {
-    width: 16.65vw; height: 13.95vw
+    width: 20.25vw; height: 16.96vw
    }
    .flex-element3 {
-    width: 10.5vw; height: 9.9vw
+    width: 12.77vw; height: 12.04vw
    }
    .flex-element4 {
-    width: 11.4vw; height: 9.15vw
+    width: 13.86vw; height: 11.12vw
    }
   .dop-info {
     font-size: 3vw;
@@ -838,9 +842,6 @@
     padding: 1vw;
     padding-inline: 2vw;
     border-radius: 4vw;
-  }
-  .page-second p{
-    font-size: 4vw;
   }
 
   .page-second src{
