@@ -792,12 +792,21 @@
     min-width: 40vw;
     min-height: 27vh;
   }
-  .flex-logo-image {
-    transform: scale(2);
-  }
-  .flex-logo-image-bottom {
-    transform: scale(2);
-  }
+  .flex-element0 {
+    width: 10.5vw; height: 14.55vw
+   }
+   .flex-element1 {
+    width: 12.55vw; height: 14.4vw
+   }
+   .flex-element2 {
+    width: 16.65vw; height: 13.95vw
+   }
+   .flex-element3 {
+    width: 10.5vw; height: 9.9vw
+   }
+   .flex-element4 {
+    width: 11.4vw; height: 9.15vw
+   }
   .dop-info {
     font-size: 3vw;
   }
