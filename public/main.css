@@ -552,7 +552,7 @@
  
  .black-container {
    background-color: #12172C;
-   padding-top: 7vh;
+   padding-top: 5vw;
    display: flex;
    flex-direction: column; 
  }
@@ -869,6 +869,7 @@
   .prof-container {
     min-width: 60vw;
     padding: 4vw;
+    margin-bottom: 10vw;
   }
   .prof-header {
     font-size: 5.56vw;
