@@ -254,7 +254,7 @@
  .content-first {
    height: 100vh;
    padding-top: 30vh;
-   min-height: 80vw;
+   min-height: calc(30vh + 50vw);
  }
  
  .dop-info {
