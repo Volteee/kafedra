@@ -758,10 +758,29 @@
  }
 
  @media screen and (max-width: 500px){
+  body {
+    line-height: 2;
+  }
   .flex-element {
     background-color: var(--color-light);
     flex: 1;
     min-width: 40vw;
     min-height: 27vh;
   }
+  .dop-info {
+    font-size: 3vw;
+  }
+  .custom-font {
+    font-size: 6vw;
+  }
+  .video_button {
+    padding: 3vw;
+  }
+  .video_button a {
+    font-size: 4vw;
+    padding: 1vw;
+    padding-inline: 2vw;
+    border-radius: 4vw;
+  }
+
 }
