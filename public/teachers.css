@@ -184,12 +184,24 @@ body {
   .photos_teachers img{
     width: 100%;
     height: auto;
-    border-radius: 2vw;
+    border-radius: 4vw;
     border: 2vw solid white;
   }
   .info_block {
     margin-top: 2vw;
     margin-left: 0;
+  }
+  .main_info {
+    padding: 2vw;
+    border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+  }
+  .sub_info {
+    padding: 2vw;
+    border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -webkit-border-radius: 3vw;
   }
   .main_info h1 {
     font-size: 3.6vw;
@@ -202,5 +214,9 @@ body {
   }
   .grid_element p {
     font-size: 2vw;
+    padding: .4vw 1vw;
+    border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -webkit-border-radius: 1vw;
   }
 }
