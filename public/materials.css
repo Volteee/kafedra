@@ -127,3 +127,32 @@ ul {
     padding-left: 12.8vw;
     padding-right: 12.8vw;
 }
+
+@media screen and (max-width: 500px){
+  .header {
+    padding-top: 5.5vw;
+    position: static;
+    gap: 0;
+  }
+  .header-menu {
+    column-gap: 3.43vw;
+  }
+  .header-logo img {
+    width: 0;
+  }
+  .header-menu-link {
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2.55vw;
+    z-index: 10;
+    transition: background-color 0.1s ease-in-out;
+    padding: .6vw;
+    padding-inline: 1vw;
+    background-color: var(--color-light-gray);
+    border-radius: 1.3vw;
+    font-weight: 600;
+    color: var(--color-dark-gray);
+  }
+}
