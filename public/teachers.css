@@ -242,10 +242,10 @@ body {
       transition: background-color 0.1s ease-in-out;
       padding: .6vw;
       padding-inline: 1vw;
-      background-color: var(--color-light-gray);
+      background-color: #f7f9fb;
       border-radius: 1.3vw;
       font-weight: 600;
-      color: var(--color-dark-gray);
-    }
+      color: #36393d;
+  }
 
 }
