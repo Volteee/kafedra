@@ -221,7 +221,7 @@
    color: black;
  }
  
- .header-menu-link:hover, .header-menu-link:active {
+ .header-menu-link:hover {
    background-color: var(--color-for-border);
  }
  
@@ -339,7 +339,7 @@
   width: 3.8vw; height: 3.05vw
  }
  
- .flex-element:hover, .flex-element:active {
+ .flex-element:hover {
    background-color: rgba(255, 255, 255, 0.88);
  }
  
@@ -933,4 +933,16 @@
   .partner-container a{
     margin: 20;
   }
+  .header-menu-link:hover {
+    background-color: white;
+  }
+  .video_button a:hover {
+    background-color: white;
+  }
+  .flex-element:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .partner_button:hover img {
+    transform: scale(1);
+ }
 }
