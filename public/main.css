@@ -904,7 +904,7 @@
   }
   .prof-header {
     font-size: 5.56vw;
-    margin-left: 5vw;
+    padding-left: 5vw;
   }
   .prof-title {
     font-size: 4vw;
@@ -921,14 +921,14 @@
   .content-second {
     width: 90vw;
   }
+  .partner_button {
+    width: 21vw;
+    height: 21vw;
+  }
 
   .partner-container{
-    padding-bottom: 10vw;
+    padding-bottom: 5vw;
     padding-inline: 5vw;
-  }
-  .partner-container img{
-    width: 17vw;
-    height: auto;
   }
   .contact-container_smal img{
     width: 3vw;
@@ -942,9 +942,6 @@
   }
   .create-line {
     width: 90%;
-  }
-  .partner-container a{
-    margin: 20;
   }
   .header-menu-link:hover {
     background-color: white;
