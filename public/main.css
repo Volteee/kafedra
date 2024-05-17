@@ -791,6 +791,11 @@
     padding: 3.8vw;
     min-width: 40vw;
     min-height: 27vh;
+  }
+  .flex-logo-image {
+    transform: scale(2);
+  }
+  .flex-logo-image-bottom {
     transform: scale(2);
   }
   .dop-info {
