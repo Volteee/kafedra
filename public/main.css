@@ -803,8 +803,11 @@
     flex: 1;
     padding: 3.8vw;
     min-width: 90vw;
-    min-height: 27vh;
+    min-height: 45vw;
     border-radius: 4vw;
+  }
+  .flex-title {
+    margin-top: 1vw;
   }
   .flex-element0 {
     width: 10.5vw; height: 14.55vw
