@@ -791,6 +791,7 @@
     padding: 3.8vw;
     min-width: 40vw;
     min-height: 27vh;
+    transform: scale(2);
   }
   .dop-info {
     font-size: 3vw;
