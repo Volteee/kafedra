@@ -755,7 +755,7 @@
    }
  }
 
- @media screen and (max-width: 400px){
+ @media screen and (max-width: 500px){
   .flex-element {
     background-color: var(--color-light);
     flex: 1;
