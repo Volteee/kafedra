@@ -359,6 +359,7 @@
    color: var(--color-dark-gray);
    text-align:left;
    margin-top: 5px;
+   border-radius: 5vw;
  }
  
  .flex-logo-image {
@@ -413,7 +414,7 @@
  .left_side__text_block h2 {
    font-size: 2.22vw;
    font-weight: 700;
-   margin-bottom: 20px;
+   margin-bottom: 0;
  }
  
  .left_side__text_block li {
@@ -770,7 +771,6 @@
    }
    .course_block__right_side {
      width: 100%;
-     margin-top: 4vh;
    }
  }
 
@@ -833,5 +833,30 @@
 
   .content_section__course h1 {
     font-size: 4vw;
+  }
+  .course_block__course_number {
+    margin-bottom: 0;
+    font-size: 3.3vw;
+  }
+  .left_side__text_block h2 {
+    font-size: 4.44vw;
+  }
+  .left_side__text_block li {
+    font-size: 2.5vw;
+  }
+  .right_side__text_block h2 {
+    font-size: 3.1vw;
+  }
+  .right_side__text_block p {
+    font-size: 2vw;
+  }
+  .graph__column___box {
+    font-size: 3.34vw;
+  }
+  .graph__column p {
+    font-size: 2.8vw;
+  }
+  .graph__column {
+    width: 10vw;
   }
 }
