@@ -181,7 +181,7 @@ body {
   .container_teacher {
     display: block;
   }
-  .photos_teachers {
+  .photos_teachers img{
     width: 100%;
     height: auto;
   }
