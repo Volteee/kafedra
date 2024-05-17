@@ -769,7 +769,7 @@
   .header-menu {
     column-gap: 3.43vw;
   }
-  header-logo img {
+  .header-logo img {
     width: 0;
   }
   .header-menu-link {
